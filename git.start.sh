@@ -15,6 +15,8 @@ git add .
 git commit -m "Inital commit" 
 
 echo -e  "Adding repo to githud.com\n"
+echo -e  "Make sure that you have added to githud.com\n"
+echo -e  "If not you will get an error!"
 echo -e  "What will repo be called?\n"
 read repo
 git remote add origin git@github.com:terrorpup/$repo.git
